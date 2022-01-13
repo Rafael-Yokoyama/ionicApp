@@ -7,13 +7,17 @@ import { IonicModule } from '@ionic/angular';
 import { IndexPageRoutingModule } from './index-routing.module';
 
 import { IndexPage } from './index.page';
+import { ApiService } from 'src/app/services/api.service';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IndexPageRoutingModule
+    IndexPageRoutingModule,
+  ],
+  providers: [
+    ApiService,
   ],
   declarations: [IndexPage]
 })
