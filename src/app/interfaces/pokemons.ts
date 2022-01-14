@@ -5,6 +5,5 @@ export interface PokemoInterface {
   img: string;
   type: Array<string>;
   weight: string;
-  candy: string;
   weaknesses: Array<string>;
 }

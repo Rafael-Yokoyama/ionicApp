@@ -33,12 +33,11 @@ export class ApiService {
           img: pokemon.img,
           type: pokemon.type,
           weight: pokemon.weight,
-          candy: pokemon.candy,
           weaknesses: pokemon.weaknesses,
         }
         pokemons.push(poke)
       }
-      console.log('pokemon',pokemons)
+
       return pokemons
     }))
   }
