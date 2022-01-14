@@ -8,6 +8,7 @@ import { IndexPageRoutingModule } from './index-routing.module';
 
 import { IndexPage } from './index.page';
 import { ApiService } from 'src/app/services/api.service';
+import { CardModule } from 'src/app/components/card/card.module';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { ApiService } from 'src/app/services/api.service';
     FormsModule,
     IonicModule,
     IndexPageRoutingModule,
+    CardModule,
   ],
   providers: [
     ApiService,

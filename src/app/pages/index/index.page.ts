@@ -22,6 +22,7 @@ export class IndexPage implements OnInit {
   getAllPokemons(): void {
 
       this._apiService.getPokemons().subscribe((res: Array<PokemoInterface>) => {
+        this.pokemons = res;
 
       })
 
