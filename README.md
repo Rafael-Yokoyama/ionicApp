@@ -44,6 +44,7 @@ This project was made using the follow technologies:
 * <a href="https://ionicframework.com/"> Ionic </a> 
 * <a href="https://angular.io/cli">Angular</a>    
 * <a href="https://www.typescriptlang.org/"> TypeScript  </a> 
+* * <a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript"> JavaScript  </a> 
 * <a href="https://sass-lang.com"> Sass </a> 
 
       
