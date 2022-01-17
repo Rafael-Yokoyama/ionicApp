@@ -14,13 +14,18 @@
 
     ion-col {
       img {
+        cursor:pointer;
+        filter: grayscale(1);
         position: relative;
-        top: 10px;
-        animation: images ease-in-out .8s infinite alternate;
+        top: 15px;
+        transition: all .6s;
+        }
+
+        img:hover {
+          filter: grayscale(0);
+          top: 6px
 
       }
-
-
     }
 
     ion-badge {
